@@ -1,0 +1,32 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN Stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizanhadi/mean-stack.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "faiz -full stack training",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizanhadi/mean-stack/issues"
+  },
+  "homepage": "https://github.com/faizanhadi/mean-stack#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.28",
+    "mongoose": "^4.10.5"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
